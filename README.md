@@ -5,7 +5,9 @@
 🌟 Overview
 Mindful AI is an intelligent well-being platform designed to enhance mindfulness through AI-powered emotional analysis and personalized experiences. It integrates multimodal AI to analyze facial expressions, body language, voice, and text, ensuring real-time emotional insights.
 
+
 ✨ Features
+
 ✔ AI-Powered Chatbot – Understands emotions via face, voice, and text analysis for tailored mindfulness guidance.
 
 ✔ Journaling with AI Insights – Smart prompts based on emotional state for deep self-reflection.
