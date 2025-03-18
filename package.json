@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node server.js"
+     "dev": "nodemon server/server.js"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.26.9",
