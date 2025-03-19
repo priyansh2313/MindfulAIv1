@@ -19,7 +19,7 @@ const tracks: Track[] = [
     duration: "3:05:48",
     url: "https://www.youtube.com/watch?v=V1RPi2MYptM",
     category: "Nature",
-    cover: "419611.jpg"
+    cover: "https://synctuition.com/wp-content/uploads/2021/08/Webp.net-compress-image-35.jpg"
   },
   {
     title: "Krishna Flute Music",
@@ -27,7 +27,7 @@ const tracks: Track[] = [
     duration: "1:00:05",
     url: "https://youtu.be/5jca-sWgemI?si=RjDtkBSqJpB0KSk2",
     category: "Nature",
-    cover: "unnamed.jpg"
+    cover: "https://i.pinimg.com/736x/79/b2/a0/79b2a04e3d2159d20f833cba0878fe2a.jpg"
   },
   {
     title: "Beautiful Relaxing Music with Piano, Guitar & Bird Sounds",
@@ -35,7 +35,7 @@ const tracks: Track[] = [
     duration: "3:03:39",
     url: "https://youtu.be/hlWiI4xVXKY?si=8qVFNl39TfvKgQHw",
     category: "Meditation",
-    cover: "wallpaperflare.com_wallpaper.jpg"
+    cover: "https://www.nwf.org/-/media/NEW-WEBSITE/Shared-Folder/Magazines/2024/Spring/GALBATROSS-Eastern-bluebirds-SPRING24-960x630.jpg"
   },
   {
     title: "Relaxing Music for Focus, Sleep & Relaxation",
@@ -51,7 +51,7 @@ const tracks: Track[] = [
     duration: "37:54",
     url: "https://youtu.be/zLH3iZKvhKg?si=fkSSPkhwu-r_tFeV",
     category: "Meditation",
-    cover: "wallpaperflare.com_wallpaper.jpg"
+    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTukUe2b_4EuOEN8B1SfFlhDm1F_NP_N8huFg&s"
   }
 ];
 
@@ -140,7 +140,7 @@ const Music = () => {
                   onPause={() => setIsPlaying(false)}
                   onProgress={({ playedSeconds }) => setPlayedSeconds(playedSeconds)}
                   onDuration={(duration) => setDuration(duration)}
-                  config={{ youtube: { playerVars: { controls: 0 } } }}
+                  config={{ youtube: { playerVars: { controls: 0 } } }}                  
                 />
               </div>
 
